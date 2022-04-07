@@ -1,12 +1,12 @@
-import { initMetrics } from '../Metrics'
-import { initMetadata } from '../Metadata'
+import { initMetric } from '../Metrics'
+import { initMetadatas } from '../Metadata'
 
 //export default (settings, log, application, launch, lightning) {
 //
 // }
 console.log('Inside Metrics file of index metro-sdk')
 export default (App, appSettings, platformSettings, appData, settings, log) => {
-  initMetadata(appSettings)
+  initMetadatas(appSettings)
   // Initialize plugins
-  initMetrics(platformSettings.plugins.metrics, log)
+  initMetric(platformSettings.plugins.metrics, log)
 }
