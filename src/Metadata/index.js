@@ -6,7 +6,7 @@ export const initMetadata = metadataObj => {
 
 export default {
   get(key, fallback = undefined) {
-    return key in metadatas ? metadatas[key] : fallback
+    return key in metadata ? metadata[key] : fallback
   },
   appId() {
     return this.get('id')
