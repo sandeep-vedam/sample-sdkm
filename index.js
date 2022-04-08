@@ -17,7 +17,4 @@
  * limitations under the License.
  */
 
-export { default as SDKImports } from './src/SDKImports'
-export { default as Metrics } from './src/Metrics'
-export { default as Metadata } from './src/Metadata'
-console.log('Inside Metrics file of metro-sdk')
+export { default as Metadata, initMetadata } from './src/Metadata'

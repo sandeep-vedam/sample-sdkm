@@ -1,7 +1,7 @@
-let  metadatas= {}
+let metadata= {}
 
-export const initMetadatas = metadataObj => {
-  metadatas = metadataObj
+export const initMetadata = metadataObj => {
+  metadata = metadataObj
 }
 
 export default {
