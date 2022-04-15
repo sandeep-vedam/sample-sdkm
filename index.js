@@ -18,3 +18,6 @@
  */
 
 export { default as Metadata, initMetadata } from './src/Metadata'
+export { default as Metrics, initMetrics } from './src/Metrics'
+export { default as Profile, initProfile} from './src/Profile'
+export { initSdkPlugin } from './src/SdkPlugins'
