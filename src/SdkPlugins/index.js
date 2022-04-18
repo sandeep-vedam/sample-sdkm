@@ -20,12 +20,11 @@
 export let log
 export let settings
 export let appInstance
-export let lightning
+export let add
 
-export const initSdkPlugin = (AppInstance, logs, setting, lightnings ) => {
+export const initSdkPlugin = (AppInstance, logs, setting, adds ) => {
   log = logs
   settings = setting
-  lightning = lightnings
+  add = adds
   appInstance = AppInstance
 }
-
