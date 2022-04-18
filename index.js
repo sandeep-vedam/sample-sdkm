@@ -20,6 +20,7 @@
 export { default as Metadata, initMetadata } from './src/Metadata'
 export { default as Metrics, initMetrics } from './src/Metrics'
 export { default as Profile, initProfile} from './src/Profile'
-export { initSdkPlugin } from './src/SdkPlugins'
 export { default as Purchase, initPurchase} from './src/Purchase'
 export { default as TV, initTV} from './src/TV'
+export { default as VideoPlayer, initVideoPlayer, mediaUrl} from './src/VideoPlayer'
+export { initSdkPlugin } from './src/SdkPlugins'
