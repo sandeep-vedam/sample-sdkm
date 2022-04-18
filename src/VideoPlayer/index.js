@@ -35,13 +35,12 @@ let metrics
 let consumer
 let precision = 1
 let textureMode = false
-console.log("App instance is", appInstance)
+
 export const initVideoPlayer = config => {
   if (config.mediaUrl) {
     mediaUrl = config.mediaUrl
   }
 }
-console.log("Inside VIde player ------------------------------------------------------------------------")
 // todo: add this in a 'Registry' plugin
 // to be able to always clean this up on app close
 let eventHandlers = {}
@@ -443,7 +442,6 @@ const videoPlayerPlugin = {
 }
 
 export default autoSetupMixin(videoPlayerPlugin, () => {
-  console.log("Application instance is", appInstance)
   precision =
     (appInstance &&
       appInstance.stage &&
